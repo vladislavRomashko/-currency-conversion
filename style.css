@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.main-container{
+  margin: 0 auto;
+}
+
+.app-box{
+  display: none;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 10px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 4px 0px #000;
+  background-color: rgba(139, 135, 135, 0.26);
+  border-radius: 5px;
+}
+
+.app-screen{
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.exchange {
+font-size: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+border: 1px solid transparent;
+border-radius: 10px;
+box-shadow: 3px 4px 10px -3px rgba(0, 0, 0, 0.466);
+}
+
+.exchange-info {
+  font-size: 20px;
+  color: rgb(65, 65, 65);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: inset 0px 1px 5px rgba(0,0,0,0.24);
+}
+
+.exchange-info-input{
+  margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+}
+
+.app-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.app-input {
+display: flex;
+justify-content: center;
+width: 200px;
+}
+.app-screen-value{
+  font-size: 35px;
+}
+
+input {
+  width: 150px;
+padding: 10px;
+border: 1px solid rgba(110, 143, 153, 0.644);
+border-radius: 10px;
+margin: 5px;
+}
+
+.select {
+  width: 220px;
+  padding: 10px;
+border: 1px solid rgba(110, 143, 153, 0.644);
+border-radius: 10px;
+margin: 5px;
+}
+
+.loader {
+  display: block;
+position: absolute;
+top: calc(50% - 44px);
+left: calc(50% - 44px);
+}
+
+
+@keyframes ldio-oct1q6aec2e {
+  0% { background: #42e00a }
+  12.5% { background: #42e00a }
+  12.625% { background: #85a2b6 }
+  100% { background: #85a2b6 }
+}
+.ldio-oct1q6aec2e div {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #85a2b6;
+  animation: ldio-oct1q6aec2e 1s linear infinite;
+}
+.loadingio-spinner-blocks-qydxldtdgz {
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-oct1q6aec2e {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.88);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-oct1q6aec2e div { box-sizing: content-box; }
+
+ 
+
